@@ -1,0 +1,65 @@
+/* FONTS */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'Favorite Notification DEMO';
+	src: url(fonts/Favorite_Notification_DEMO.tff);
+}
+
+
+.navbar {
+	font-family: Favorite Notification DEMO;
+	font-style: italic;
+	text-transform: uppercase;
+	background: #E3E4E0;
+	display: flex;
+	padding: 20px;
+	font-size: 3em;
+}
+
+
+.header {
+	display: flex;
+	align-items: center;
+	padding-top: 15%;
+	flex-direction: column;
+	font-size: 5vh;	
+	z-index: 1;
+}
+
+
+
+.header h1, .headerText, h5 {
+	font-family: Favorite Notification DEMO;
+}
+
+.header h1, .headerText {
+	padding: 0;
+	margin: 0;
+}
+
+#oval {
+	position: relative;
+	width: 200px;
+	height: 100px;
+	border-style: solid;
+	border-color: black;
+	background: transparent;
+	border-radius: 100px / 50px;
+	transform: rotate(-15deg);
+	top: -100px;
+	right: -160px;
+}
+
+.star {
+	position: absolute;
+	right: 900px;
+	top: 220px;
+
+}
+
+
+
