@@ -101,7 +101,6 @@ body::-webkit-scrollbar {
 	transform: rotate(-13deg);
 }
 
-
 .navbar {
 	font-style: italic;
 	text-transform: uppercase;
@@ -182,13 +181,13 @@ body::-webkit-scrollbar {
 }
 
 
-#first, #second {
+#first, #second, #third {
 	padding-top: 5%;
 	margin-left: 5%;
 	margin-right: 5%;
 }
 
-#first h2, #second h2{
+#first h2, #second h2, #third h2 {
 	font-size: 5em;
 	padding: 0;
 	margin: 0;
@@ -212,12 +211,12 @@ body::-webkit-scrollbar {
 	padding-bottom: 10%;
 }
 
-.img1 {
+/*.img1 {
 	position: absolute;
 	width: 50%;
 	top: 45em;
 	right: 5em;
-}
+}*/
 
 .rightF {
 	display: flex;
@@ -225,7 +224,21 @@ body::-webkit-scrollbar {
 	padding-bottom: 20%;
 }
 
+/* second */
+#second {
+/*	text-align: center;*/
+	padding-bottom: 20%;
+}
+
 #second h2:nth-child(2) {
+	margin-left: 20%;
+}
+
+#second h2:nth-child(3) {
+	margin-left: 40%;
+}
+
+#third h2:nth-child(2) {
 	margin-left: 18% !important;
 }
 
@@ -248,28 +261,28 @@ body::-webkit-scrollbar {
 	margin: 0;
 }
 
-.third {
+.fourth {
 	display: grid;
 	place-items: center;
 	background-color: #D4C8BE;
 	color: white;
 }
 
-.third h2, .third h3, .third h4{
+.fourth h2, .fourth h3, .fourth h4{
 	filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
 
-.third h2 {
+.fourth h2 {
 	font-size: 5em;
 	margin-bottom: 0;
 }
 
-.third h3 {
+.fourth h3 {
 	text-align: center;
 	font-size: 2em;
 	margin-bottom: 5px;
 }
 
-.third h4 {
+.fourth h4 {
 	margin-bottom: 10px;
 }
