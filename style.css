@@ -6,8 +6,14 @@ html, body {
 
 body {
 	font-family: Favorite Notification DEMO;
-
+/*	background: url(img/background.png);*/
+	background-repeat: no-repeat;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 
 @font-face {
 	font-family: 'Favorite Notification DEMO';
@@ -39,6 +45,11 @@ body {
 	padding: 0;
 	margin: 0;
 }
+
+.header, .headerBot {
+	background-color:;
+}
+
 
 #oval {
 	position: relative;
@@ -82,5 +93,93 @@ body {
   100% { transform:translate(0,10px); opacity: 0; }
 }
 
+.uniqueWord {
+	color: #A5988E;
+	opacity: 70%;
+}
 
 
+#first, #second {
+	padding-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#first h2, #second h2{
+	font-size: 5em;
+	padding: 0;
+	margin: 0;
+}
+
+.leftF h2:nth-child(2){
+	margin-left: 10% !important; 
+
+}
+
+.leftF h2:nth-child(3) {
+	margin-left: 15% !important;
+}
+
+.leftF, .rightF, .leftS, .rightS {
+	flex-direction: column;
+}
+
+.leftF {
+	display: flex;
+	padding-bottom: 10%;
+}
+
+.rightF {
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 20%;
+}
+
+#second h2:nth-child(2) {
+	margin-left: 15% !important;
+}
+
+.leftS {
+	display: flex;
+}
+
+.rightS {
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 10%;
+}
+
+.dots {
+	position: relative;
+	top: -0.5em;
+	letter-spacing: 50px;
+	text-align: center;
+	font-size: 20rem;
+	margin: 0;
+}
+
+.third {
+	display: grid;
+	place-items: center;
+	background-color: #D4C8BE;
+	color: white;
+}
+
+.third h2, .third h3, .third h4{
+	filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.third h2 {
+	font-size: 5em;
+	margin-bottom: 0;
+}
+
+.third h3 {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+
+.third h4 {
+	margin-bottom: 10px;
+}
