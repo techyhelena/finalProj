@@ -6,8 +6,7 @@ html, body {
 
 body {
 	font-family: Favorite Notification DEMO;
-/*	background: url(img/background.png);*/
-	background-repeat: no-repeat;
+	background-color: #f5f5f5;
 }
 
 body::-webkit-scrollbar {
@@ -21,15 +20,102 @@ body::-webkit-scrollbar {
 }
 
 
+/* langiene lip balm */
+#main img:nth-child(1) {
+	position: absolute;
+	top: 33em;
+	left: 35em;
+	width: 10%;
+	transform: rotate(-343deg);
+}
+
+/* ordinary bottles left */
+.secondImg {
+	position: absolute;
+	width: 50%;
+	left: -30em;
+	bottom: 5em;
+	transform: rotate(-353deg);
+}
+
+/* paula BHA */
+#main img:nth-child(3) {
+	position: absolute;
+	width: 15%;
+	top: 33em;
+	right: 30em;
+	transform: rotate(-13deg);
+}
+
+/* garnier */
+#main img:nth-child(4) {
+	position: absolute;
+	width: 8%;
+	top: 25em;
+	right: 20em;
+	transform: rotate(-8deg);
+}
+
+/*ordinary bottles right*/
+#main img:nth-child(5) {
+	position: absolute;
+	width: 50%;
+	left: 80em;
+	transform: rotate(-354deg);
+}
+
+/* la roche */
+#main img:nth-child(6) {
+	position: absolute;
+	width: 18%;
+	top: 6em;
+	right: 15em;
+	transform: rotate(8deg);
+}
+
+/* single ordinary serum */
+#main img:nth-child(7) {
+	position: absolute;
+	width: 45%;
+	top: 5em;
+	left: .5em;
+	transform: rotate(-10deg);
+}
+
+/* mario */
+#main img:nth-child(8) {
+	position: absolute;
+	width: 15%;
+	top: 9em;
+	left: 35em;
+	transform: rotate(-344deg);
+}
+
+/* cetaphil */
+#main img:nth-child(9) {
+	position: absolute;
+	width: 15%;
+	top: 7em;
+	left: 48em;
+	transform: rotate(-13deg);
+}
+
+
 .navbar {
 	font-style: italic;
 	text-transform: uppercase;
 	background: #D4C8BE;
 	display: flex;
 	padding: 20px;
-	font-size: 3em;
+	margin: 0;
+	z-index: 999;
 }
 
+.navbar p {
+	margin: 0;
+	font-size: 3em;
+	filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.11));
+}
 
 .header {
 	display: flex;
@@ -37,17 +123,13 @@ body::-webkit-scrollbar {
 	padding-top: 15%;
 	flex-direction: column;
 	font-size: 5vh;	
-	z-index: 1;
 	padding-bottom: 8%;
 }
 
 .header h1, .headerText {
 	padding: 0;
 	margin: 0;
-}
-
-.header, .headerBot {
-	background-color:;
+	z-index: 99;
 }
 
 
@@ -136,7 +218,7 @@ body::-webkit-scrollbar {
 }
 
 #second h2:nth-child(2) {
-	margin-left: 15% !important;
+	margin-left: 18% !important;
 }
 
 .leftS {
