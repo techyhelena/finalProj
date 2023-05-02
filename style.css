@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
 
 @font-face {
 	font-family: 'Favorite Notification DEMO';
-	src: url(fonts/Favorite_Notification_DEMO.tff);
+	src: url('fonts/Favorite_Notification_DEMO.ttf');
 }
 
 
