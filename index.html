@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	<title>Find What Your Skin Needs</title>
 </head>
 <body>
@@ -40,16 +42,18 @@
 
 	<!-- first section -->
 	<div id= "first">
-		<div class= "leftF">
+		<div class= "leftF" data-aos="fade-right" data-aos-offset="300">
 			<h2>A <em>little</em></h2>
 			<h2>goes a</h2>
 			<h2><em>long way.</em></h2>
 		</div>
+		<img src="img/img1.png" class= "img1">
 
-		<div class= "rightF">
+
+		<div class= "rightF" data-aos="fade-left"data-aos-offset="300">
 		<h2>Stop getting <em class="uniqueWord">BAITED.</em></h2>
-		<h2>you don't <em class= "uniqueWord">NEED</em> everything</h2>
-		<h2>influencers <em class="uniqueWord">recommend</em> you.</h2>
+		<h2>you don't <em class= "uniqueWord">NEED</em> to try</h2>
+		<h2>every<em class="uniqueWord"> VIRAL</em> skincare product.</h2>
 		</div>
 	</div>
 
@@ -74,8 +78,12 @@
 	<div class= "third">
 		<h2>at most you need...</h2>
 		<h3>a cleanser<br>a moisturizer<br>and sunscreen to protect your skin from the sun!</h3>
-		<h4>please consult a professional if there are any other concerns!</h4>
+		<h4>please consult a professional if there are any specific concerns!</h4>
 	</div>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

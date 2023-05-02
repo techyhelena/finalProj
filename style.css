@@ -7,6 +7,7 @@ html, body {
 body {
 	font-family: Favorite Notification DEMO;
 	background-color: #f5f5f5;
+	overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -209,6 +210,13 @@ body::-webkit-scrollbar {
 .leftF {
 	display: flex;
 	padding-bottom: 10%;
+}
+
+.img1 {
+	position: absolute;
+	width: 50%;
+	top: 45em;
+	right: 5em;
 }
 
 .rightF {
